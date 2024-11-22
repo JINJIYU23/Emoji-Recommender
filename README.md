@@ -39,7 +39,7 @@ npm install
 - .env 파일 생성 후 아래 코드 입력
 
 ```bash
-REACT_GOOGLE_API_KEY=<YOUR API KEY>
+REACT_APP_GOOGLE_API_KEY=<YOUR API KEY>
 ```
 
 4. Tailwind CSS
