@@ -36,6 +36,7 @@ npm install
 
 3. Google AI 연동
 - [https://aistudio.google.com/prompts/new_chat](https://aistudio.google.com/prompts/new_chat)에서 API key 발급
+- .env 파일 생성 후 아래 코드 입력
 
 ```bash
 REACT_GOOGLE_API_KEY=<YOUR API KEY>
