@@ -22,20 +22,26 @@ Notion 문서의 목차에 이모지를 추가하면 시각적으로 더 보기 
 
 ### 📖 Installation
 
-1. 다양한 react 라이브러리 설치
+1. Clone the Repository
+```bash 
+git clone https://github.com/JINJIYU23/Emoji-recommder.git
+cd emoji
+```
+
+2. 필요한 react 라이브러리 설치
 
 ```bash
 npm install
 ```
 
-1. Google AI 연동
+3. Google AI 연동
 - [https://aistudio.google.com/prompts/new_chat](https://aistudio.google.com/prompts/new_chat)에서 API key 발급
 
 ```bash
 REACT_GOOGLE_API_KEY=<YOUR API KEY>
 ```
 
-1. Tailwind CSS
+4. Tailwind CSS
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer
@@ -64,11 +70,10 @@ index.css 파일에 아래 코드 복사
 @tailwind utilities;
 ```
 
-1. 🎉 start **emoji 🎉**
+5. 🎉 start **emoji 🎉**
 
+- http://localhost:3000/ 로 접속 가능!
 ```jsx
-git clone <Github Repository 주소>
-cd emoji
 npm start
 ```
 
