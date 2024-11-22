@@ -36,42 +36,13 @@ npm install
 
 3. Google AI 연동
 - [https://aistudio.google.com/prompts/new_chat](https://aistudio.google.com/prompts/new_chat)에서 API key 발급
-- .env 파일 생성 후 아래 코드 입력
+- `.env` 파일 생성 후 아래 코드 입력
 
 ```bash
 REACT_APP_GOOGLE_API_KEY=<YOUR API KEY>
 ```
 
-4. Tailwind CSS
-
-```bash
-npm install -D tailwindcss postcss autoprefixer
-```
-
-tailwind.config.js파일에 아래 코드 복사
-
-```jsx
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-index.css 파일에 아래 코드 복사
-
-```jsx
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-```
-
-5. 🎉 start **emoji 🎉**
+4. 🎉 start **emoji 🎉**
 
 - http://localhost:3000/ 로 접속 가능!
 ```jsx
