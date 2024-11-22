@@ -24,8 +24,8 @@ Notion 문서의 목차에 이모지를 추가하면 시각적으로 더 보기 
 
 1. Clone the Repository
 ```bash 
-git clone https://github.com/JINJIYU23/Emoji-recommder.git
-cd emoji
+git clone https://github.com/JINJIYU23/Emoji-Recommender.git
+cd Emoji-Recommender
 ```
 
 2. 필요한 react 라이브러리 설치
