@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gasoek+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+.emoji{
+  position: relative;
+  z-index: 1;            /* RainEffect 위에 배치 */
+  text-align: center;
+  align-items: center;
+  margin-top : 40px;
+}
+
+.emojiTitle {
+  font-family: "Gasoek One", sans-serif;
+  font-size: 80px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.emojiContent {
+  font-family: "Sour Gummy", sans-serif;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.aiFont {
+  color : #00A5FF;
+  font-weight: bold;
+  padding: 0.3em 1em;
+  background-color: rgb(253, 224, 71);
+  border-radius: 0.5em;
+  align-items: center;
+}
+
+.searchBox {
+  font-size: 20px;
+  width: 500px;
+  margin: 10px;
+  padding: 15px;
+  border: 0.5px solid #00A5FF;
+  border-radius: 10px;
+}
+
+.searchBox:focus {
+  border-color : rgb(253, 224, 71);
+  outline : none;
+}
+
+.click {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: bold;
+  border-radius : 10px;
+  color : #00A5FF;
+  font-size : 30px;
+}
+
+.emojiBox {
+  background-color: rgba(255, 250, 205);
+  padding: 20px;
+  margin: 10px;
+  border: 3px solid  #ffc400;
+  border-radius: 10px;
+}
+
+/* .topTap {
+  width: 100%;
+  height: 20px;
+  background-color: yellow;
+} */
+
+.tab1 {
+  float: right;
+  margin: 5px;
+  background-color: red;
+  border: 3px solid red;
+  border-radius: 10px;
+  width: 20px;
+  height: 10px;
+}
+
+.tab2 {
+  float: right;
+  margin: 5px;
+  background-color: rgb(255, 217, 0);
+  border: 3px solid  rgb(255, 217, 0);
+  border-radius: 10px;
+  width: 20px;
+  height: 10px;
+}
+
+.tab3 {
+  float: right;
+  margin: 5px;
+  background-color: rgb(33, 255, 81);
+  border: 3px solid  rgb(33, 255, 81);
+  border-radius: 10px;
+  width: 20px;
+  height: 10px;
+}
+
+.clear {
+  clear: both;
+}
+
+#realTitle {
+  font-family: "Dongle", sans-serif;
+  text-align : center;
+  font-size: 35px;
+}
+
+.realEmoji {
+  padding: 5px;
+  font-size : 50px;
+}
+
+.copy{  
+  background-color: rgb(253, 224, 71);
+  padding: 5px;
+  border: 3px solid  #00A5FF;
+  border-radius: 10px;
+  font-family: "Sour Gummy", sans-serif;
+  color : #00A5FF;
+  font-size : 20px;
+}
