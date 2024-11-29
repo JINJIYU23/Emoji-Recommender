@@ -78,7 +78,7 @@ const RainEffect = () => {
     left: 0,
     width: "100%",
     height: "100%",
-    zIndex: -1, // 배경처럼 뒤로 보내기></div>;
+    zIndex: -1, // 배경처럼 뒤로 보내기>
   }}>
   </div>
   );
